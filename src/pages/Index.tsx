@@ -258,7 +258,7 @@ const Index = () => {
           <h3 className="text-4xl font-bold mb-12">Contact Me</h3>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3">
+            <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3">
               <Linkedin className="w-5 h-5 mr-2" />
               Connect on LinkedIn
             </Button>
