@@ -298,7 +298,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-26 h-26 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <img src={`${import.meta.env.BASE_URL}certified/AWS-Certified.PNG`} 
+                <img src="/nathalia-portfolio-elegance/certified/AWS-Certified.PNG"  
                 alt="AWS Certified Cloud Practitioner" />
                 {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
