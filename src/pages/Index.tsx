@@ -67,8 +67,13 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">N
-            <img src={Logo} alt="Portfolio Logo NR"/>
+          <div className="flex items-center space-x-2">
+            <span className="text-2xl font-bold">N</span>
+            <img 
+              src={Logo} 
+              alt="Portfolio Logo NR" 
+              className="h-8 w-auto sm:h-10 md:h-12 object-contain"
+            />
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="hover:text-purple-400 transition-colors">Home</a>
