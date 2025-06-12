@@ -272,7 +272,7 @@ const Index = () => {
       </section>
 
       {/* Certifications */}
-      <section className="py-16 px-6 bg-gray-900/50">
+      <section id="certifications" className="py-16 px-6 bg-gray-900/50">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-4xl font-bold mb-4">Certifications</h3>
           <p className="text-gray-400 mb-12">Industry recognition</p>
@@ -283,17 +283,17 @@ const Index = () => {
                 <Award className="w-8 h-8 text-black" />
               </div>
               <h4 className="text-xl font-semibold mb-2">
-                AWS Certified Developer
+                AWS Certified Cloud Practitioner
               </h4>
-              <p className="text-gray-400">Amazon Web Services</p>
+              <p className="text-gray-400">Amazon Web Services Certified</p>
             </div>
 
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-16 h-16 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-black" />
               </div>
-              <h4 className="text-xl font-semibold mb-2">React Specialist</h4>
-              <p className="text-gray-400">Meta</p>
+              <h4 className="text-xl font-semibold mb-2">Scrum Foundation</h4>
+              <p className="text-gray-400">CertiProf</p>
             </div>
           </div>
         </div>
