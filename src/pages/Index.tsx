@@ -1,21 +1,12 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import {
-  Mail,
-  Linkedin,
-  Monitor,
-  Award,
-  Github,
-  User,
-  Calendar,
-  Settings,
-  Code,
-  Star,
-} from "lucide-react";
+  Mail, Linkedin, Monitor, Award, Github, User, Calendar, Settings, Code, Star, } from "lucide-react";
 
 import Logo from "../../public/Logo NR roxo.png";
 import Perfil from "../../public/foto-perfil-celular.png";
 import Me from "../../public/photo-nathalia.jpg";
+import AWS from "../../public/AWS-Certified.PNG";
 
 const Index = () => {
   const experiences = [
@@ -280,6 +271,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-16 h-16 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <img src={AWS} alt="AWS Certified Cloud Practitioner" />
                 <Award className="w-8 h-8 text-black" />
               </div>
               <h4 className="text-xl font-semibold mb-2">
