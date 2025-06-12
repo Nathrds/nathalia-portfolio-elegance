@@ -162,9 +162,11 @@ const Index = () => {
                 </p>
               </div>
             </div>
+            <a href="https://github.com/Nathrds" target="_blank" rel="noopener noreferrer">
             <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2">
               View Github
             </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -177,9 +179,11 @@ const Index = () => {
             Creative problem solver passionate about building elegant solutions
             that combine functionality with outstanding user experience.
           </p>
+          <a href="mailto:nathaliarsantos@live.com">
           <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
             Contact Me
           </Button>
+          </a>
         </div>
       </section>
 
@@ -362,6 +366,9 @@ const Index = () => {
           <h3 className="text-4xl font-bold mb-12">Contact Me</h3>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" 
+                target="_blank"
+                rel="noopener noreferrer">
             <Button
               variant="outline"
               className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3"
@@ -369,10 +376,13 @@ const Index = () => {
               <Linkedin className="w-5 h-5 mr-2" />
               Connect on LinkedIn
             </Button>
+            </a>
+            <a href="mailto:nathaliarsantos@live.com">
             <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
               <Mail className="w-5 h-5 mr-2" />
               Send Email
             </Button>
+            </a>
           </div>
         </div>
       </section>
