@@ -3,6 +3,8 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Mail, Linkedin, Monitor, Award, Github, User, Calendar, Settings, Code, Star } from 'lucide-react';
 
+import Logo from "../../public/Logo NR roxo.png";
+
 const Index = () => {
   const experiences = [
     {
@@ -65,7 +67,9 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">N</div>
+          <div className="text-2xl font-bold">N
+            <img src={Logo} alt="Portfolio Logo NR" className="pt-24 pb-16 px-6"/>
+          </div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="hover:text-purple-400 transition-colors">Home</a>
             <a href="#about" className="hover:text-purple-400 transition-colors">About</a>
@@ -87,13 +91,13 @@ const Index = () => {
               <div>
                 <h1 className="text-2xl font-bold">Nathalia Rodrigues</h1>
                 <div className="bg-purple-600 text-white text-sm px-3 py-1 rounded-full inline-block mt-2">
-                  Available for hire
+                  Web Developer 
                 </div>
                 <p className="text-gray-400 mt-2">Full-stack developer specialized in modern web technologies and user experience</p>
               </div>
             </div>
             <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2">
-              Hire Now
+              View Github
             </Button>
           </div>
         </div>
