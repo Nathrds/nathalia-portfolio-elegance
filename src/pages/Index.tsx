@@ -87,7 +87,7 @@ const Index = () => {
     },
     {
       name: "Jamile de Sousa - Jamile worked with Nathalia in the same team",
-      text: "Nathalia is an exceptional professional, committed, and makes a difference. During a scholarship program we worked on together, she served as Scrum Master, performing beyond exemplary. Her dedication stands out, always helping both the scholarship holders and colleagues overcome challenges. She has always shown a willingness to learn, share knowledge, and contribute to the team's success. It was a privilege to work by her side!",
+      text: `Nathalia is an exceptional professional, committed, and makes a difference. During a scholarship program we worked on together, she served as Scrum Master, performing beyond exemplary. Her dedication stands out, always helping both the scholarship holders and colleagues overcome challenges. She has always shown a willingness to learn, share knowledge, and contribute to the team's success. It was a privilege to work by her side!`,
     },
   ];
 
