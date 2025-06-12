@@ -16,6 +16,8 @@ import {
 import Logo from "../../public/Logo NR roxo.png";
 import Perfil from "../../public/foto-perfil-celular.png";
 import Me from "../../public/photo-nathalia.jpg";
+import CertifiedAws from "../../public/AWS_Certified.png";
+import CertifiedScrum from "../../public/certificate-scrum.png";
 
 const Index = () => {
   const experiences = [
@@ -298,7 +300,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-26 h-26 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <img src="/nathalia-portfolio-elegance/certified/AWS-Certified.PNG"  
+                <img src={CertifiedAws}  
                 alt="AWS Certified Cloud Practitioner" />
                 {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
@@ -311,7 +313,7 @@ const Index = () => {
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-26 h-26 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <img
-                  src="/certified/certificate-scrum.PNG" alt="certificate scrum"/>
+                  src={CertifiedScrum} alt="certificate scrum"/>
                 {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
               <h4 className="text-xl font-semibold mb-2">Scrum Foundation</h4>
