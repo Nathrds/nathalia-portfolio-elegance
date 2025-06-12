@@ -74,12 +74,20 @@ const Index = () => {
 
   const testimonials = [
     {
-      name: "Tech Lead - Senior Software Engineer",
-      text: "I had the pleasure of working with Nathalia for over two years. As a principal engineer, I mentored her on various technical challenges, and I was consistently impressed by her proactive approach and dedication to delivering high-quality solutions. Nathalia demonstrates strong problem-solving skills, excellent communication, and a genuine passion for continuous learning. She consistently takes initiative, collaborates effectively with cross-functional teams, and delivers exceptional results. Her technical expertise, combined with her positive attitude and strong work ethic, makes her a valuable asset to any development team.",
+      name: "Bruno Carnavalli - Bruno was guiding Nathalia",
+      text: `I've had the pleasure of knowing Nathalia for about a year now, during which I served as one of the instructors for her five-month internship at Compass UOL. 
+      
+      In my role, I was responsible for observing her technical and interpersonal skills, of which Nathalia consistently impressed me with her show of a clear understanding of development principles, while effectively communicating her progress. Her work always stood out to me and the rest of the team, earning our recognition. 
+      
+      That said, her skills in communication and leadership are only matched by her drive to successfully deliver results, whilst improving her existing knowledge and learning from any mistakes listed in the feedbacks we provided. Her projects were some of the best I've seen. She is an avid learner and very persistent, consistently showing a very sharp skill when it comes to problem-solving. 
+      
+      On a personal level, I can't help but to emphasize how much of an empathetic, approachable, and collaborative team member she is. Always offering support to her peers and stepping up whenever someone encountered obstacles. Features that left a lasting impression on our team. 
+      
+      To be her mentor was one of the most rewarding experiences I've had in my almost 2 years as an instructor and I wholeheartedly recommend her to any organization or role where a dedicated, talented, and thoughtful professional is needed.`,
     },
     {
-      name: "Technical Lead at Software Development",
-      text: "I worked with Nathalia for over a year and can recommend her capabilities as a web developer. Her work shows deep technical knowledge and attention to detail, consistently delivering high-quality code and user-friendly interfaces.",
+      name: "Jamile de Sousa - Jamile worked with Nathalia in the same team",
+      text: "Nathalia is an exceptional professional, committed, and makes a difference. During a scholarship program we worked on together, she served as Scrum Master, performing beyond exemplary. Her dedication stands out, always helping both the scholarship holders and colleagues overcome challenges. She has always shown a willingness to learn, share knowledge, and contribute to the team's success. It was a privilege to work by her side!",
     },
   ];
 
@@ -331,7 +339,7 @@ const Index = () => {
       <section className="py-16 px-6 bg-gray-900/50">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-4xl font-bold mb-4">Testimonials</h3>
-          <p className="text-gray-400 mb-12">What clients say about me</p>
+          <p className="text-gray-400 mb-12">Feedback about me</p>
 
           <div className="space-y-8 max-w-4xl mx-auto">
             {testimonials.map((testimonial, index) => (
@@ -339,7 +347,7 @@ const Index = () => {
                 <div className="bg-purple-600 text-white px-4 py-2 rounded-lg inline-block mb-4">
                   {testimonial.name}
                 </div>
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-gray-300 leading-relaxed whitespace-pre-line text-justify">
                   {testimonial.text}
                 </p>
               </div>
