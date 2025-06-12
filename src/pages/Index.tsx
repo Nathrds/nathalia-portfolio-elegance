@@ -42,17 +42,17 @@ const Index = () => {
   const academics = [
     {
       degree: "MBA in Project Management",
-      institution: "Business School",
+      institution: "Gran University",
       year: "2025",
     },
     {
-      degree: "Bachelor in Computer Science",
-      institution: "Tech University",
+      degree: "Analysis and System Development",
+      institution: "SENAC DF University of Technology",
       year: "2024",
     },
     {
-      degree: "Web Development Bootcamp",
-      institution: "Code Academy",
+      degree: "Architecture and Urbanism",
+      institution: "Unieuro University",
       year: "2019",
     },
   ];
