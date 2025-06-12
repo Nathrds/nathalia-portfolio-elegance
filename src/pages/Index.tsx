@@ -12,6 +12,7 @@ import {
   Code,
   Star,
 } from "lucide-react";
+import { HashLink as Link } from "react-router-hash-link";
 
 import Logo from "../../public/Logo NR roxo.png";
 import Perfil from "../../public/foto-perfil-celular.png";
@@ -107,7 +108,13 @@ const Index = () => {
             {/* <span className="text-2xl font-bold">Nathália Portfolio</span> */}
           </div>
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className="hover:text-purple-400 transition-colors">
+            <Link to="#home" smooth className="hover:text-purple-400 transition-colors">Home</Link>
+            <Link to="#about" smooth className="hover:text-purple-400 transition-colors">About</Link>
+            <Link to="#experience" smooth className="hover:text-purple-400 transition-colors">Experience</Link>
+            <Link to="#certifications" smooth className="hover:text-purple-400 transition-colors">Certifications</Link>
+            <Link to="#skills" smooth className="hover:text-purple-400 transition-colors">Skills</Link>
+            <Link to="#contact" smooth className="hover:text-purple-400 transition-colors">Contact</Link>
+            {/* <a href="#home" className="hover:text-purple-400 transition-colors">
               Home
             </a>
             <a
@@ -139,7 +146,7 @@ const Index = () => {
               className="hover:text-purple-400 transition-colors"
             >
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>
@@ -164,10 +171,14 @@ const Index = () => {
                 </p>
               </div>
             </div>
-            <a href="https://github.com/Nathrds" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2">
-              View Github
-            </Button>
+            <a
+              href="https://github.com/Nathrds"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2">
+                View Github
+              </Button>
             </a>
           </div>
         </div>
@@ -182,9 +193,9 @@ const Index = () => {
             that combine functionality with outstanding user experience.
           </p>
           <a href="mailto:nathaliarsantos@live.com">
-          <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
-            Contact Me
-          </Button>
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
+              Contact Me
+            </Button>
           </a>
         </div>
       </section>
@@ -300,8 +311,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-26 h-26 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <img src={CertifiedAws}  
-                alt="AWS Certified Cloud Practitioner" />
+                <img
+                  src={CertifiedAws}
+                  alt="AWS Certified Cloud Practitioner"
+                />
                 {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
               <h4 className="text-xl font-semibold mb-2">
@@ -312,8 +325,7 @@ const Index = () => {
 
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-26 h-26 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <img
-                  src={CertifiedScrum} alt="certificate scrum"/>
+                <img src={CertifiedScrum} alt="certificate scrum" />
                 {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
               <h4 className="text-xl font-semibold mb-2">Scrum Foundation</h4>
@@ -369,22 +381,24 @@ const Index = () => {
           <h3 className="text-4xl font-bold mb-12">Contact Me</h3>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" 
-                target="_blank"
-                rel="noopener noreferrer">
-            <Button
-              variant="outline"
-              className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3"
+            <a
+              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Linkedin className="w-5 h-5 mr-2" />
-              Connect on LinkedIn
-            </Button>
+              <Button
+                variant="outline"
+                className="border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3"
+              >
+                <Linkedin className="w-5 h-5 mr-2" />
+                Connect on LinkedIn
+              </Button>
             </a>
             <a href="mailto:nathaliarsantos@live.com">
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
-              <Mail className="w-5 h-5 mr-2" />
-              Send Email
-            </Button>
+              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3">
+                <Mail className="w-5 h-5 mr-2" />
+                Send Email
+              </Button>
             </a>
           </div>
         </div>
