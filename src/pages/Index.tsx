@@ -22,18 +22,18 @@ const Index = () => {
     {
       company: "MODBLUE",
       position: "Junior Developer",
-      period: "May 2025 - Nov 2024",
+      period: "May 2025 - Present",
       icon: Monitor,
     },
     {
-      company: "Digital Agency",
-      position: "Frontend Developer",
+      company: "Compass UOL",
+      position: "Trainee Frontend Developer",
       period: "May 2024 - Nov 2024",
       icon: Monitor,
     },
     {
-      company: "StartupXYZ",
-      position: "UX/UI Designer",
+      company: "Compass UOL",
+      position: "Intern in Front-end Development (React)",
       period: "Nov 2023 - Apr 2024",
       icon: Monitor,
     },
@@ -140,7 +140,7 @@ const Index = () => {
               <div>
                 <h1 className="text-2xl font-bold">Nathalia Rodrigues</h1>
                 <div className="bg-purple-600 text-white text-sm px-3 py-1 rounded-full inline-block mt-2">
-                  Front-end Web Developer
+                  Frontend Web Developer
                 </div>
                 <p className="text-gray-400 mt-2">
                   Web developer specialized in modern web technologies and user
