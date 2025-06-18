@@ -105,7 +105,6 @@ const Index = () => {
               alt="Portfolio Logo NR"
               className="h-8 w-auto sm:h-10 md:h-12 object-contain"
             />
-            {/* <span className="text-2xl font-bold">Nathália Portfolio</span> */}
           </div>
           <div className="hidden md:flex space-x-8">
             <Link to="#home" smooth className="hover:text-purple-400 transition-colors">Home</Link>
@@ -114,39 +113,6 @@ const Index = () => {
             <Link to="#certifications" smooth className="hover:text-purple-400 transition-colors">Certifications</Link>
             <Link to="#skills" smooth className="hover:text-purple-400 transition-colors">Skills</Link>
             <Link to="#contact" smooth className="hover:text-purple-400 transition-colors">Contact</Link>
-            {/* <a href="#home" className="hover:text-purple-400 transition-colors">
-              Home
-            </a>
-            <a
-              href="#about"
-              className="hover:text-purple-400 transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#experience"
-              className="hover:text-purple-400 transition-colors"
-            >
-              Experience
-            </a>
-            <a
-              href="#certifications"
-              className="hover:text-purple-400 transition-colors"
-            >
-              Certifications
-            </a>
-            <a
-              href="#skills"
-              className="hover:text-purple-400 transition-colors"
-            >
-              Skills
-            </a>
-            <a
-              href="#contact"
-              className="hover:text-purple-400 transition-colors"
-            >
-              Contact
-            </a> */}
           </div>
         </div>
       </nav>
@@ -158,7 +124,6 @@ const Index = () => {
             <div className="flex items-center gap-6">
               <div className="w-20 h-20 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center">
                 <img src={Perfil} alt="Photo perfil Nathalia" />
-                {/* <User className="w-10 h-10" /> */}
               </div>
               <div>
                 <h1 className="text-2xl font-bold">Nathalia Rodrigues</h1>
@@ -207,7 +172,6 @@ const Index = () => {
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg flex items-center justify-center">
                 <img src={Me} alt="Photo Nathalia" />
-                {/* <User className="w-32 h-32 text-gray-600" /> */}
               </div>
             </div>
             <div>
@@ -315,7 +279,6 @@ const Index = () => {
                   src={CertifiedAws}
                   alt="AWS Certified Cloud Practitioner"
                 />
-                {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
               <h4 className="text-xl font-semibold mb-2">
                 AWS Certified Cloud Practitioner
@@ -326,7 +289,6 @@ const Index = () => {
             <div className="bg-gray-900 p-8 rounded-lg">
               <div className="w-26 h-26 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <img src={CertifiedScrum} alt="certificate scrum" />
-                {/* <Award className="w-8 h-8 text-black" /> */}
               </div>
               <h4 className="text-xl font-semibold mb-2">Scrum Foundation</h4>
               <p className="text-gray-400">CertiProf</p>
@@ -408,7 +370,7 @@ const Index = () => {
       <footer className="py-8 px-6 border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2024 Nathalia Rodrigues Portfolio. All rights reserved.
+            © 2025 Nathalia Rodrigues Portfolio. All rights reserved.
           </p>
         </div>
       </footer>
